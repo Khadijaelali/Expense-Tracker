@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+PiggyPal 🐷💰
+PiggyPal is a user-friendly expense tracker designed to help you manage budgets, track spending, and gain insights into your finances. With its intuitive interface and robust features, PiggyPal empowers you to take control of your financial future.
 
-## Getting Started
+Features
+Budget Management: Create and manage budgets effortlessly.
+Expense Tracking: Log your expenses with categories, amounts, and dates.
+Analytics Dashboard: Visualize your spending patterns with charts and insights.
+Expense Categorization: Organize expenses by categories such as groceries, bills, entertainment, and more.
+Responsive Design: Accessible on desktop, tablet, and mobile devices for seamless use.
+Technologies Used
+Frontend: React, Tailwind CSS
+Backend: Node.js, Drizzle ORM
+Database: PostgreSQL
+Authentication: Clerk
+Deployment: Vercel (Frontend), Railway (Backend)
+Getting Started
+Prerequisites
+Node.js (v16+)
+PostgreSQL database
+Git
+Installation
+Clone the repository:
 
-First, run the development server:
+bash
+Copy code
+git clone https://github.com/Khadijaelali/Expense-Tracker.git
+cd Expense-Tracker
+Install dependencies:
 
-```bash
+bash
+Copy code
+npm install
+Configure environment variables:
+
+Create a .env file in the root directory.
+Add the required environment variables (e.g., database URL, API keys).
+Run migrations:
+
+bash
+Copy code
+npm run migrate
+Start the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Deployment
+Build the project:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bash
+Copy code
+npm run build
+Deploy using your preferred platform (e.g., Vercel, Railway).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A sneak peek into PiggyPal's dashboard.
 
-## Learn More
+Contributing
+Contributions are welcome! If you have suggestions for new features or improvements, feel free to:
 
-To learn more about Next.js, take a look at the following resources:
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature/new-feature
+Commit your changes:
+bash
+Copy code
+git commit -m "Add new feature"
+Push to your branch:
+bash
+Copy code
+git push origin feature/new-feature
+Open a pull request.
+License
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contact
+For any questions or feedback, feel free to reach out:
+GitHub: Khadijaelali
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
