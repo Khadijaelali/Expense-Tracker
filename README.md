@@ -1,82 +1,60 @@
-PiggyPal 🐷💰
-PiggyPal is a user-friendly expense tracker designed to help you manage budgets, track spending, and gain insights into your finances. With its intuitive interface and robust features, PiggyPal empowers you to take control of your financial future.
+# PiggyPal 🐷💰
+**PiggyPal** is a user-friendly expense tracker designed to help you manage budgets, track spending, and gain insights into your finances. With its intuitive interface and robust features, PiggyPal empowers you to take control of your financial future.
 
-Features
-Budget Management: Create and manage budgets effortlessly.
-Expense Tracking: Log your expenses with categories, amounts, and dates.
-Analytics Dashboard: Visualize your spending patterns with charts and insights.
-Expense Categorization: Organize expenses by categories such as groceries, bills, entertainment, and more.
-Responsive Design: Accessible on desktop, tablet, and mobile devices for seamless use.
-Technologies Used
-Frontend: React, Tailwind CSS
-Backend: Node.js, Drizzle ORM
-Database: PostgreSQL
-Authentication: Clerk
-Deployment: Vercel (Frontend), Railway (Backend)
-Getting Started
-Prerequisites
-Node.js (v16+)
-PostgreSQL database
-Git
-Installation
-Clone the repository:
+---
 
-bash
-Copy code
-git clone https://github.com/Khadijaelali/Expense-Tracker.git
-cd Expense-Tracker
-Install dependencies:
+## Features
+- **Budget Management**: Create and manage budgets effortlessly.
+- **Expense Tracking**: Log your expenses with categories, amounts, and dates.
+- **Analytics Dashboard**: Visualize your spending patterns with charts and insights.
+- **Responsive Design**: Accessible on desktop, tablet, and mobile devices.
 
-bash
-Copy code
-npm install
-Configure environment variables:
+---
 
-Create a .env file in the root directory.
-Add the required environment variables (e.g., database URL, API keys).
-Run migrations:
+## Technologies Used
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Drizzle ORM
+- **Database**: PostgreSQL
+- **Authentication**: Clerk
+- **Deployment**: Vercel (Frontend), Railway (Backend)
 
-bash
-Copy code
-npm run migrate
-Start the development server:
+---
 
-bash
-Copy code
-npm run dev
-Deployment
-Build the project:
+## Getting Started
 
-bash
-Copy code
-npm run build
-Deploy using your preferred platform (e.g., Vercel, Railway).
+### Prerequisites
+- Node.js (v16+)
+- PostgreSQL database
+- Git
 
-Screenshots
+### Installation
 
-A sneak peek into PiggyPal's dashboard.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Khadijaelali/Expense-Tracker.git
+   cd Expense-Tracker
+   ```
 
-Contributing
-Contributions are welcome! If you have suggestions for new features or improvements, feel free to:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/new-feature
-Commit your changes:
-bash
-Copy code
-git commit -m "Add new feature"
-Push to your branch:
-bash
-Copy code
-git push origin feature/new-feature
-Open a pull request.
-License
-This project is licensed under the MIT License.
+3. Configure environment variables:
+   - Create a `.env` file in the root directory.
+   - Add the required environment variables (e.g., database URL, API keys).
 
-Contact
-For any questions or feedback, feel free to reach out:
-GitHub: Khadijaelali
+4. Run migrations:
+   ```bash
+   npm run migrate
+   ```
 
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
